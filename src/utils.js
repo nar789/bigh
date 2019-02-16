@@ -7,15 +7,18 @@
 			re=new RegExp("bigh"+i,'g');
 			out=out.replace(re,str_list[i]);
 		}
+		
 		console.log("bighi --> " + itr);
 		out=out.replace(/bighi/g,itr);
+
 		var rstr = require('randomstring');
 		var rstr_gen = rstr.generate({
 			length:6,
 			capitalization:'lowercase'
 		});
-		out=out.replace(/bighr/g,'a'+ rstr_gen);
 		console.log("bighr --> " + 'a' + rstr_gen);
+		out=out.replace(/bighr/g,'a'+ rstr_gen);
+		
 		console.log("replacing is complete.");
 		return out;
 	}
