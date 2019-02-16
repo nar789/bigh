@@ -1,0 +1,17 @@
+{
+  "name": "bigh",
+  "version": "1.0.0",
+  "description": "this is utility app which replace all pattern matching string in source files.",
+  "main": "src/app.js",
+  "scripts": {
+    "start" : "node src/app.js"
+  },
+  "author": {
+    "name":"HUME",
+    "email":"admin@hume.co.kr"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "randomstring": "^1.1.5"
+  }
+}
