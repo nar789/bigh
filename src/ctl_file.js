@@ -1,3 +1,4 @@
+'use strict';
 ;(function(){
 	let data=String();
 	let fs = require('fs');

@@ -1,3 +1,4 @@
+'use strict';
 ;(function() {
 	exports.rep_all=function(data,str_list,itr){
 		console.log("replacing...");

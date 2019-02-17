@@ -1,8 +1,9 @@
+'use strict';
 ;(async function(){
 
-	argvs=process.argv;
+	const argvs=process.argv;
 	
-	console.log('\n\nbigh@1.0.0 last updated at 19-02-05 designed by HUME corp.\n\n');
+	console.log('\n\nbigh@1.0.0(last updated at 2019-2-5) created by HUME.\n\n');
 	if(argvs.length<3)
 	{
 		console.log('Usage: bigh <config file>\n\n');
