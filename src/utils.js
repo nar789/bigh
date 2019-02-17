@@ -3,9 +3,13 @@
 		console.log("replacing...");
 		let out=data;
 		for(var i=0;i<str_list.length;i++){
-			console.log("bigh"+i+" --> "+str_list[i]);
-			re=new RegExp("bigh"+i,'g');
-			out=out.replace(re,str_list[i]);
+			let re=new RegExp("bigh"+i,'g');
+			let rep_str = str_list[i];
+			if(Array.isArray(rep_str)){
+				rep_str=rep_str[itr-1];
+			}
+			console.log("bigh"+i+" --> " + rep_str);
+			out=out.replace(re,rep_str);
 		}
 		
 		console.log("bighi --> " + itr);
