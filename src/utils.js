@@ -44,7 +44,7 @@
 
 		const execSync = require("child_process").execSync
 		try{
-			const { stdout, stderr } = await execSync("cmd /c bigh_copy.bat "+base+" "+copy_path);
+			const { stdout, stderr } = await execSync("cmd /c bigh-copy.bat "+base+" "+copy_path);
 		}catch(err)
 		{
 			console.log('copyfolder_err'+err);

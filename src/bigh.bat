@@ -1,1 +1,0 @@
-node %~dp0app.js %1

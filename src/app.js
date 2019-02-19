@@ -12,15 +12,17 @@
 
 	const config_path=argvs[2];
 
-	let cfg=require('./ctl_config').init(config_path);
+	let cfg=require('./ctl/ctl_config').init(config_path);
 	let util=require('./utils');
-	let file=require('./ctl_file');
+	let file=require('./ctl/ctl_file');
 	const repeat=cfg.repeat;
 	const base=cfg.base;
 	const target_len=cfg.target.length;
+	const copy_folder=cfg.copy_folder;
 	for(var i=1;i<=repeat;i++)
 	{
-		await util.copy_folder(base,i);
+		if(copy_folder)
+			await util.copy_folder(base,i);
 		for(var j=0;j<target_len;j++)
 		{
 			let path = base + i + '/' + cfg.target[j];

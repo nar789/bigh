@@ -1,6 +1,0 @@
-{
-	"base":"C:/Users/leejunghun/gitproject/bigh/src/a",
-	"repeat":3,
-	"target":["test.txt","c/test2.txt","e/test3.txt"],
-	"replace":["A","B",["가나다","라마바","사아자"]]
-}
