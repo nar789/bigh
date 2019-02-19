@@ -4,15 +4,16 @@
   "description": "",
   "main": "src/app.js",
   "scripts": {
-    "start" : "node src/app.js",
-    "test" : "node src/test.js"
+    "start": "node src/app.js",
+    "test": "node src/test.js"
   },
   "author": {
-    "name":"HUME",
-    "email":"admin@hume.co.kr"
+    "name": "HUME",
+    "email": "admin@hume.co.kr"
   },
   "license": "MIT",
   "dependencies": {
+    "mocha": "^6.0.0",
     "randomstring": "^1.1.5"
   }
 }
