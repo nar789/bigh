@@ -49,7 +49,7 @@ c:\> _
 		"bighi" in Aproj1 -> "1"
 		"bighi" in Aproj2 -> "2"
 		"bighi" in Aproj3 -> "3"
-		"bighs" -> random string. (ex. a776Bc8)
+		"bighr" -> random string. (ex. a776Bc8)
 	
 	left side is string of base project source files.
 	right side is string of new project copied.*/
