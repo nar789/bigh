@@ -1,4 +1,7 @@
 # bigh-cli
+
+[![Build Status](https://travis-ci.org/nar789/bigh.svg?branch=master)](https://travis-ci.org/nar789/bigh)
+
 Tool help you to make skeleton-project.
 
 ## Usage
