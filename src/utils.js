@@ -64,8 +64,8 @@
 		console.log('\n\n  <all utill tests start>\n\n');
 		console.log('=====================\n\n  rep_all_test() start..\n\n');
 		exports.rep_all_test();
-		console.log('=====================\n\n  copy_folder_test() start..\n\n');
-		await exports.copy_folder_test();
+		//console.log('=====================\n\n  copy_folder_test() start..\n\n');
+		//await exports.copy_folder_test();
 		console.log('=====================\n\n  all utill tests passed.\n\n');
 	}
 
