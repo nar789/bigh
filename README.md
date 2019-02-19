@@ -1,6 +1,6 @@
 # bigh-cli
 
-[![Build Status](https://travis-ci.org/nar789/bigh.svg?branch=master)](https://travis-ci.org/nar789/bigh) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.org/nar789/bigh.svg?branch=master)](https://travis-ci.org/nar789/bigh) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 Tool help you to make skeleton-project.
 
