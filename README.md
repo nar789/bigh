@@ -21,7 +21,7 @@ c:\test> dir
 c:\> _
 ```
 ## Config
-```json
+```javascript
 {
 	"base":"c:\test\Aproj",
 	//this is base folder.
