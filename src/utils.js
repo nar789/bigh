@@ -53,7 +53,7 @@
 	}
 
 	exports.copy_folder_test=async function(){
-		let test_base="a";
+		let test_base="../test/bin/a";
 		let test_itr=3;
 		await exports.copy_folder(test_base,test_itr);
 		console.log('copy_folder test success!'+'\n\n');
