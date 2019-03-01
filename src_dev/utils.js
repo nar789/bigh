@@ -27,14 +27,14 @@
 		console.log("replacing is complete.");
 		return out;
 	}
-
+/*
 	exports.rep_all_test=function(){
 		let test_data="bigh0uccebigh0bigh0bighibighi";
 		let test_list=["s"];
 		const test_out=exports.rep_all(test_data,test_list,7);
 		console.log("\ntest data : [" + test_data + "]\n");
 		console.log("test result : [" + test_out + "]\n\n");
-	}
+	}*/
 
 	exports.copy_folder=async function(base,itr){
 		let pre_base=base;
@@ -51,15 +51,15 @@
 		}
 		console.log('[' + copy_path + '] folder copied success');
 	}
-
+/*
 	exports.copy_folder_test=async function(){
 		let test_base="../test/bin/a";
 		let test_itr=3;
 		await exports.copy_folder(test_base,test_itr);
 		console.log('copy_folder test success!'+'\n\n');
-	}
+	}*/
 
-
+/*
 	exports.test=async function(){
 		console.log('\n\n  <all utill tests start>\n\n');
 		console.log('=====================\n\n  rep_all_test() start..\n\n');
@@ -67,6 +67,6 @@
 		//console.log('=====================\n\n  copy_folder_test() start..\n\n');
 		//await exports.copy_folder_test();
 		console.log('=====================\n\n  all utill tests passed.\n\n');
-	}
+	}*/
 
 })()
