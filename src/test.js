@@ -1,2 +1,5 @@
-let t=require('./utils');
+"use strict";
+
+let t = require('./utils');
+
 t.test();

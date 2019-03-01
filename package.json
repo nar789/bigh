@@ -4,8 +4,9 @@
   "description": "",
   "main": "src/app.js",
   "scripts": {
+    "babel": "node_modules/.bin/babel src_dev --out-dir src",
     "start": "node src/app.js",
-    "test": "node src/test.js"
+    "test": "node node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha && type coverage\\lcov.info | node node_modules/coveralls/bin/coveralls.js && echo All Test Suite succeed!"
   },
   "author": {
     "name": "HUME",
@@ -13,7 +14,19 @@
   },
   "license": "MIT",
   "dependencies": {
-    "mocha": "^6.0.0",
+    "@babel/polyfill": "^7.2.5",
     "randomstring": "^1.1.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-transform-async-to-generator": "^7.3.4",
+    "@babel/preset-env": "^7.3.1",
+    "babel-register": "^6.26.0",
+    "coveralls": "^3.0.3",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.0.1",
+    "mocha-lcov-reporter": "^1.3.0"
   }
 }
