@@ -1,6 +1,6 @@
 # bigh-cli
 
-[![Build Status](https://travis-ci.org/nar789/bigh.svg?branch=master)](https://travis-ci.org/nar789/bigh) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Coverage Status](https://coveralls.io/repos/github/nar789/bigh/badge.svg?branch=master)](https://coveralls.io/github/nar789/bigh?branch=master)
+[![Build Status](https://travis-ci.org/nar789/bigh.svg?branch=master)](https://travis-ci.org/nar789/bigh) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Coverage Status](https://coveralls.io/repos/github/nar789/bigh/badge.svg?branch=master&kill_cache=1)](https://coveralls.io/github/nar789/bigh?branch=master)
 
 HHThis is a tool help you to make skeleton-project.
 
