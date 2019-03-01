@@ -1,0 +1,7 @@
+{
+	"base":"a",
+	"repeat":3,
+	"copy_folder":true,
+	"target":["test.txt"],
+	"replace":["H","A"]
+}
